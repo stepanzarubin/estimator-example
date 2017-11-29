@@ -28,7 +28,7 @@ function preEcho($value) {
 /* end Debug functions */
 
 /* DB */
-$db_file = dirname(__DIR__) . '/estimator/data/db.sqlite3';
+$db_file = dirname(__DIR__) . '/Estimator/data/db.sqlite3';
 $db = new SQLite3($db_file);
 
 if (isset($_POST['cleanEstimates']))
