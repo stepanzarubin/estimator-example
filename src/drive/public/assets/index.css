@@ -1,0 +1,19 @@
+table, textarea, input {
+    font-family: monospace;
+}
+
+textarea#evaluationObjects {
+    min-height: 695px;
+}
+
+textarea#tariff {
+    min-height: 170px;
+}
+
+textarea#resultRaw, textarea#estimatesRaw {
+    min-height: 180px;
+}
+
+ul {
+    list-style-type: decimal;
+}

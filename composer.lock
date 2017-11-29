@@ -1,0 +1,68 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "e9f32a31826b5ebb5f6a59e399913828",
+    "packages": [
+        {
+            "name": "estimator/estimator",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://gitlab.com/stepan.zarubin/estimator.git",
+                "reference": "f79e4d8cda7949a183245fff55512e71a772f333"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://gitlab.com/api/v4/projects/stepan%2Ezarubin%2Festimator/repository/archive.zip?sha=f79e4d8cda7949a183245fff55512e71a772f333",
+                "reference": "f79e4d8cda7949a183245fff55512e71a772f333",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Estimator\\Estimator\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Stepan Zarubin",
+                    "email": "stepan.zarubin@gmail.com"
+                }
+            ],
+            "description": "Cost valuation standard",
+            "homepage": "https://gitlab.com/stepan.zarubin/estimator.git",
+            "keywords": [
+                "calculate",
+                "calculator",
+                "cost",
+                "estimate",
+                "estimator",
+                "price",
+                "pricing"
+            ],
+            "time": "2017-11-29T05:14:35+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "estimator/estimator": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.4.0"
+    },
+    "platform-dev": []
+}
