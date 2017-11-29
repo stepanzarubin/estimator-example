@@ -2,14 +2,8 @@
 
 namespace Estimator\Example\Drive\Estimator;
 
-//use Estimator\Example\Drive\Estimator\Service\Gas\GasTariff;
-//use Estimator\Example\Drive\Estimator\Service\Spend\Spend;
-//use Estimator\Example\Drive\Estimator\Service\Driver;
-
 use Estimator\Estimator\TariffObject;
 
-//tariffs
-//require_once 'service/gas/GasTariff.php';
 
 class DriveTariff extends TariffObject
 {
@@ -21,6 +15,10 @@ class DriveTariff extends TariffObject
      */
     public $services;
 
+    /**
+     * Tariffs classmap
+     * @var array
+     */
     protected $map = [
         'gas' => 'Estimator\Example\Drive\Estimator\Service\Gas\GasTariff',
     ];

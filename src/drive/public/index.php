@@ -40,14 +40,6 @@ if (isset($_POST['cleanEstimates']))
 $db->exec("CREATE TABLE IF NOT EXISTS estimate (id INTEGER PRIMARY KEY AUTOINCREMENT, evaluation_object_id INTEGER NOT NULL, estimate TEXT)");
 /* end DB */
 
-//require_once '../DriveCalculator.php';
-
-/**
- * CRM part
- */
-//require_once '../../crm/CRMCar.php';
-//require_once '../../crm/CRMDataPreparer.php';
-
 $car_1 = new CRMCar(); //no id
 $car_1->spendDiscountPercent = 5;
 

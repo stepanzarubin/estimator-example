@@ -4,20 +4,6 @@ namespace Estimator\Example\Drive\Estimator\Car;
 
 use Estimator\Estimator\MainEvaluationObject;
 
-/**
- * Car common
- */
-//require_once 'CarCommon.php';
-//require_once 'CarTires.php';
-/* end */
-
-/**
- * Car parts or services
- */
-//require_once __DIR__ . '/../services/gas/Gas.php';
-//require_once __DIR__ . '/../services/spend/Spend.php';
-//require_once __DIR__ . '/../services/driver/Driver.php';
-/* end */
 
 /**
  * Class Car
@@ -34,6 +20,7 @@ class Car extends MainEvaluationObject
     //todo electricity calculator for electric car
 
     /**
+     * Car parts or services classmap
      * @var array
      */
     protected $map = [
