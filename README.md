@@ -1,3 +1,4 @@
 ##
 
-###Make `src/` or `src/[example]/pubic` web accessible.
+### 1. `composer install`
+### 2. make `src/` or `src/[example]/pubic` web accessible.
