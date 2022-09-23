@@ -2,7 +2,7 @@
     "name": "estimator/example",
     "description": "Estimator examples",
     "keywords": ["estimate", "estimator", "price", "pricing", "cost", "calculate", "calculator", "drive", "driving", "example"],
-    "homepage": "https://gitlab.com/stepan.zarubin/estimator-example.git",
+    "homepage": "https://github.com/stepanzarubin/estimator-example.git",
 	"license": "BSD-3-Clause",
     "authors": [
         {
